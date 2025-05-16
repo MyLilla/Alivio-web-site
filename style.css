@@ -84,7 +84,7 @@ button {
     flex-wrap: wrap;
     max-height: 327px;
     margin-top: 169px;
-    margin-bottom: 52px;
+    margin-bottom: 51px;
     justify-content: space-between;
 }
 
@@ -117,17 +117,48 @@ button {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 51px;
 }
 
 .step {
-    max-width: 390px;
+    max-width: 392px;
 }
 
-.step_number {}
+.step_number {
+    color: rgb(1, 153, 109, 0.2);
+    line-height: 150%;
+    font-family: 'Georgia', serif;
+    font-size: 150px;
+    position: relative;
+}
 
-.step_name {}
+.step_name {
+    color: #000;
+    line-height: 150%;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    bottom: 45px;
+    left: 88px;
+    width: 313px;
+}
 
 .step_explication {
-    word-break: break-all;
+    color: #424242;
+    font-size: 20px;
+    line-height: 150%;
+    overflow-wrap: break-word;
+    margin-bottom: 50px;
+}
+
+.step:nth-child(1) {
+    margin-top: 51px;
+}
+
+.step:nth-child(2) {
+    margin-top: 205px;
+}
+
+.step:nth-child(3) {
+    margin-top: 105px;
 }
