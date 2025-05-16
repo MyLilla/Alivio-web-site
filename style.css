@@ -77,3 +77,57 @@ button {
     height: 65px;
     margin-top: 18px;
 }
+
+/*Steps*/
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 327px;
+    margin-top: 169px;
+    margin-bottom: 52px;
+    justify-content: space-between;
+}
+
+.steps_title {
+    color: #424242;
+    font-size: 24px;
+    line-height: 157%;
+    width: 141px;
+}
+
+.top_left h2 {
+    color: #01996D;
+    font-family: 'Georgia', serif;
+    line-height: 157%;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    word-break: break-all;
+    width: 584px;
+}
+
+.top_right {
+    color: #424242;
+    line-height: 150%;
+    font-size: 20px;
+    width: 671px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 51px;
+}
+
+.step {
+    max-width: 390px;
+}
+
+.step_number {}
+
+.step_name {}
+
+.step_explication {
+    word-break: break-all;
+}
