@@ -7,6 +7,16 @@ body {
     padding: 0 275px;
 }
 
+h2 {
+    color: #01996D;
+    font-family: 'Georgia', serif;
+    line-height: 157%;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    word-break: break-all;
+}
+
 button {
     background-color: #01996D;
     padding: 20px 47px;
@@ -88,21 +98,14 @@ button {
     justify-content: space-between;
 }
 
-.steps_title {
+.title {
     color: #424242;
     font-size: 24px;
     line-height: 157%;
     width: 141px;
 }
 
-.top_left h2 {
-    color: #01996D;
-    font-family: 'Georgia', serif;
-    line-height: 157%;
-    font-size: 50px;
-    font-weight: bold;
-    margin: 0;
-    word-break: break-all;
+.steps h2 {
     width: 584px;
 }
 
@@ -230,4 +233,62 @@ button {
     padding: 23px 23px 23px 30px;
     width: 26px;
     height: 33px;
+}
+
+/*Product*/
+
+.product_content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 573px;
+    padding-top: 120px;
+    padding-bottom: 242px;
+}
+
+.product_left {
+    position: relative;
+}
+
+.back {
+    background-color: rgb(1, 153, 109, 0.2);
+    width: 639px;
+    height: 573px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    bottom: -25px;
+    left: -25px;
+    width: 296px;
+    height: 293px;
+}
+
+.card_header {}
+
+.line {}
+
+.ellipse {
+    background-color: rgb(1, 153, 109, 0.2);
+    width: 57.5px;
+    height: 57.5px;
+    border-radius: 50%;
+}
+
+.ellipse img {
+    border-radius: 50%;
+}
+
+.name {}
+
+.contents {}
+
+.product_right {
+    width: 584px;
+    padding-left: 86px;
 }
