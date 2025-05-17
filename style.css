@@ -162,3 +162,72 @@ button {
 .step:nth-child(3) {
     margin-top: 105px;
 }
+
+/*Story*/
+
+.story {
+    background-color: #245852;
+    height: 922px;
+    padding: 0px 206px 0px 205px;
+}
+
+.story_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 229px;
+    padding-bottom: 177px;
+}
+
+.story_text {
+    width: 580px;
+}
+
+.story_text h1 {
+    color: #FFFFFF;
+    line-height: 157%;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.story_text p {
+    color: #FFFFFF;
+    line-height: 157%;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 57px;
+}
+
+.story_video {
+    width: 895px;
+    height: 516px;
+    background-image: url(img/videoImg.png);
+}
+
+/*play_button*/
+.itd_play {
+
+    border-style: solid;
+    border-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    margin: 217px auto;
+    transition: all 0.2s ease;
+    opacity: 70%;
+}
+
+.itd_play:hover {
+    background-color: #01996D;
+}
+
+.itd_triangle {
+    padding: 23px 23px 23px 30px;
+    width: 26px;
+    height: 33px;
+}
