@@ -1,6 +1,7 @@
 body {
     max-width: 1920px;
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 .container {
@@ -334,7 +335,33 @@ li {
     padding: 0;
 }
 
-.product_content p {
+.product_right p {
     margin-bottom: 40px;
     padding: 0;
+}
+
+/*Footer*/
+
+footer {
+    height: 654px;
+    background-color: #245852;
+}
+
+.footer_items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 654px;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.footer_itm {
+    font-size: 25px;
+}
+
+.footer_itm:nth-child(1) {
+    font-family: 'Avenir', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
 }
