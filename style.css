@@ -33,6 +33,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     height: 85px;
 }
 
@@ -56,6 +57,7 @@ button {
     width: 183px;
     height: 51px;
     padding: 13px 45px;
+    font-size: 20px;
 }
 
 /*Header*/
@@ -110,7 +112,7 @@ button {
     width: 584px;
 }
 
-p {
+.steps_info {
     color: #424242;
     line-height: 150%;
     font-size: 20px;
@@ -336,6 +338,11 @@ li {
 }
 
 .product_right p {
+    color: #424242;
+    line-height: 150%;
+    font-size: 20px;
+    width: 671px;
+    margin: 0;
     margin-bottom: 40px;
     padding: 0;
 }
@@ -343,7 +350,6 @@ li {
 /*Footer*/
 
 footer {
-    height: 654px;
     background-color: #245852;
 }
 
