@@ -62,7 +62,7 @@ button {
 
 /*Header*/
 .header {
-    background-image: url(/img/bg.png);
+    background-image: url(../img/bg.png);
     height: 895px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,7 +209,7 @@ button {
 .story_video {
     width: 895px;
     height: 516px;
-    background-image: url(img/videoImg.png);
+    background-image: url(../img/videoImg.png);
 }
 
 /*play_button*/
