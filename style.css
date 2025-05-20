@@ -109,11 +109,12 @@ button {
     width: 584px;
 }
 
-.top_right {
+p {
     color: #424242;
     line-height: 150%;
     font-size: 20px;
     width: 671px;
+    margin: 0;
 }
 
 .bottom {
@@ -260,6 +261,10 @@ button {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     background-color: white;
     position: absolute;
@@ -267,11 +272,19 @@ button {
     left: -25px;
     width: 296px;
     height: 293px;
+    box-shadow: -1px 6px 8px rgba(0, 0, 0, 0.25);
 }
 
-.card_header {}
+.card_header {
+    padding-top: 22px;
+    margin: 0;
+}
 
-.line {}
+.line {
+    width: 111px;
+    border-top: 1px solid black;
+    margin: 10px;
+}
 
 .ellipse {
     background-color: rgb(1, 153, 109, 0.2);
@@ -284,11 +297,44 @@ button {
     border-radius: 50%;
 }
 
-.name {}
+.custom_content {
+    color: black;
+    font-family: 'Georgia', serif;
+    line-height: 157%;
+    font-size: 16px;
+    font-weight: bold;
+}
 
-.contents {}
+.contents {
+    color: black;
+    line-height: 157%;
+    font-size: 11px;
+    text-align: left;
+    width: 180px;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-top: 16px;
+}
 
 .product_right {
     width: 584px;
     padding-left: 86px;
+}
+
+.product_right h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.product_content p {
+    margin-bottom: 40px;
+    padding: 0;
 }
