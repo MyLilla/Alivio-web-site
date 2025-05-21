@@ -121,54 +121,22 @@
         padding: 0px 10px;
     }
 
-    .story_text {
-        width: 480px;
-        text-align: center;
-    }
-
-    .story_video {
-        width: 251px;
-        height: 146px;
-    }
-
-    .itd_play {
-        margin: 25px auto;
-    }
-
-    .card {
-        left: 5px;
-    }
-
-    .top {
-        max-height: 1050px;
-    }
-
-    .product_content {
-        text-align: center;
-        padding-bottom: 30px;
-    }
-
-    .product_right p {
-        width: auto;
-    }
-
-    .step_name {
-        left: 28px;
-    }
-}
-
-@media screen and (max-width: 380px) {
-
-    #sing_in {
+    #sign_in {
         padding-left: 5px;
     }
 
     .top {
         margin-top: 35px;
+        max-height: 1050px;
     }
 
-    .step {
-        width: 300px;
+    .steps_info {
+        width: auto;
+    }
+
+    .step_img {
+        width: 290px;
+        height: 342px;
     }
 
     .step_explication {
@@ -183,21 +151,59 @@
         margin-top: 0;
     }
 
-    .step_img {
-        width: 290px;
-        height: 342px;
+    .step:nth-child(3) {
+        margin-top: 35px;
     }
 
     .step_name {
         width: auto;
     }
 
-    .step:nth-child(3) {
-        margin-top: 35px;
+    .story_text {
+        width: 480px;
+        text-align: center;
+    }
+
+    .story_video {
+        width: 251px;
+        height: 146px;
+    }
+
+    .itd_play {
+        margin: 25px auto;
+    }
+
+    .product_content {
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .product_right p {
+        width: auto;
+    }
+
+    .step_name {
+        left: 28px;
+    }
+
+    .back img {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+
+    .navbar_content button {
+        margin-bottom: 10px;
+    }
+
+    .step {
+        width: 300px;
     }
 
     .card {
-        left: 45px;
+        left: -25px;
     }
 
     h2 {
