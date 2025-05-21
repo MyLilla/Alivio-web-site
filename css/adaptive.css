@@ -48,7 +48,7 @@
 
     .back {
         width: 539px;
-        justify-content: right;
+        justify-content: flex-end;
     }
 }
 
@@ -66,7 +66,12 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
+
+    .container {
+        padding: 0 10px;
+    }
+
     .navbar_content {
         height: auto;
     }
@@ -79,6 +84,19 @@
         width: 451px;
         height: 261px;
     }
+
+    .back {
+        width: auto;
+        justify-content: center;
+    }
+
+    .product_right {
+        width: auto;
+    }
+
+    .product_right p {
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -90,11 +108,6 @@
     .product_right {
         width: auto;
         padding-left: 0;
-    }
-
-    .story_video {
-        width: 451px;
-        height: 261px;
     }
 
     .steps h2 {
@@ -150,6 +163,10 @@
         padding-left: 5px;
     }
 
+    .top {
+        margin-top: 35px;
+    }
+
     .step {
         width: 300px;
     }
@@ -166,7 +183,24 @@
         margin-top: 0;
     }
 
+    .step_img {
+        width: 290px;
+        height: 342px;
+    }
+
+    .step_name {
+        width: auto;
+    }
+
+    .step:nth-child(3) {
+        margin-top: 35px;
+    }
+
     .card {
         left: 45px;
+    }
+
+    h2 {
+        word-break: normal;
     }
 }

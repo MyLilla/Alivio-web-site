@@ -49,7 +49,7 @@ button {
     font-weight: 400;
 }
 
-#sing_in {
+#sign_in {
     padding-left: 283px;
 }
 
@@ -66,6 +66,7 @@ button {
     height: 895px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .header h1 {
@@ -80,7 +81,7 @@ button {
 
 .header p {
     color: #484848;
-    font-size: 20;
+    font-size: 20px;
     padding-top: 30px;
     max-width: 420px;
 }
@@ -124,6 +125,12 @@ button {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-color: #017d59;
+    transition: background-color 0.3s ease;
 }
 
 .step {
@@ -131,7 +138,7 @@ button {
 }
 
 .step_number {
-    color: rgb(1, 153, 109, 0.2);
+    color: rgba(1, 153, 109, 0.2);
     line-height: 150%;
     font-family: 'Georgia', serif;
     font-size: 150px;
@@ -158,6 +165,26 @@ button {
     margin-bottom: 50px;
 }
 
+.step_img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 390px;
+    height: 442px;
+}
+
+.img1 {
+    background-image: url(../img/01.png);
+}
+
+.img2 {
+    background-image: url(../img/02.png);
+}
+
+.img3 {
+    background-image: url(../img/03.png);
+}
+
 .step:nth-child(1) {
     margin-top: 51px;
 }
@@ -169,6 +196,7 @@ button {
 .step:nth-child(3) {
     margin-top: 105px;
 }
+
 
 /*Story*/
 
@@ -255,7 +283,7 @@ button {
 }
 
 .back {
-    background-color: rgb(1, 153, 109, 0.2);
+    background-color: rgba(1, 153, 109, 0.2);
     width: 639px;
     height: 573px;
     border-radius: 18px;
@@ -290,7 +318,7 @@ button {
 }
 
 .ellipse {
-    background-color: rgb(1, 153, 109, 0.2);
+    background-color: rgba(1, 153, 109, 0.2);
     width: 57.5px;
     height: 57.5px;
     border-radius: 50%;
